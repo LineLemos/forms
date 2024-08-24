@@ -25,6 +25,7 @@
 .top p {
     color: rgb(84, 199, 228);
     padding: 20px 0px;
+    font-weight: 500;
 }
 
 .event-form {
@@ -54,17 +55,17 @@ fieldset legend {
 }
 
 
-.checkbox {}
+.checkbox {
+    display: flex;
+
+}
 
 .date-time {
     display: flex;
     flex-direction: row;
 }
 
-label {
-    padding: 100px 0px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+
 
 body {
     display: flex;
@@ -79,16 +80,15 @@ fieldset {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 100%;
 }
 
-input {
+input:not([type=checkbox]){
     padding: 10px;
-    margin-bottom: 20px;
     border-radius: 5px;
     border: 1px solid #ccc;
     display: flex;
-    width: 200%;
-    max-width: 780px;
+    width: 100%;
 }
 
 span {

@@ -6,6 +6,13 @@
 
 }
 
+legend,
+form,
+input,
+label {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 h1,
 h2,
 h3,
